@@ -11,5 +11,8 @@ def skillcalc (acaciacol, souls, treasure):
     return ((souls + treasure) * multi)
 
 
-def slayercalc (emen, petscore ):
-    print ('slayer')
+def slayercalc (emen, petscore, minslot):
+    multi = minslot * .01
+    if multi <= 1:
+        multi += 1
+    return ((emen+petscore) * multi) 
