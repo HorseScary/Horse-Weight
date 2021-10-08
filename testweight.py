@@ -1,6 +1,12 @@
 from weightcalc import dungeoncalc, skillcalc, slayercalc
 
-dungeon = dungeoncalc('58dfc909-be4a-497b-871e-a13f636d37f0', 1000)
+uuid = input("UUID: ")
+f4comp = input("Floor 4 Completions: ")
+acaciacol = input("Acacia Collection: ")
+souls = input("Fairy Souls: ")
+
+
+dungeon = dungeoncalc(uuid, f4comp)
 skill = skillcalc('8805940', 221, 424)
 slayer = slayercalc(713, 224, 20)
 
