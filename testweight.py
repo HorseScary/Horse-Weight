@@ -1,3 +1,5 @@
-from weightcalc import dungeoncalc
+from weightcalc import dungeoncalc, skillcalc
 
 print (f"Your dungeon weight is: {dungeoncalc('58dfc909-be4a-497b-871e-a13f636d37f0', 1000)}")
+
+print (f"Your skill weight is: {skillcalc('8805940', 221, 424)}")

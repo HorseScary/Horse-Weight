@@ -4,7 +4,12 @@ def dungeoncalc (uuid, f4comp):
     return(f4comp * multi)
 
 def skillcalc (acaciacol, souls, treasure):
-    return('skill')
+    if len (acaciacol) >= 3:
+        multi = (int(acaciacol[3]) * .01) + 2
+    else:
+        multi = (int(acaciacol[1]) * .01) + 2
+    return ((souls + treasure) * multi)
 
-def slayercalc (emen, petscore):
-    return('slayer')
+
+def slayercalc (emen, petscore ):
+    print ('slayer')
