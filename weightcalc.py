@@ -5,7 +5,7 @@ def dungeoncalc (uuid, f4comp):
 
 def skillcalc (acaciacol, souls, treasure):
     if len (acaciacol) >= 3:
-        multi = (int(acaciacol[3]) * .01) + 2
+        multi = (int(acaciacol[2]) * .01) + 2
     else:
         multi = (int(acaciacol[1]) * .01) + 2
     return ((souls + treasure) * multi)
