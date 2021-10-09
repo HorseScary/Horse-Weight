@@ -22,7 +22,7 @@ def skillcalc (acaciacol, souls, treasure):
 #slayer weight calculations 
 def slayercalc (emen, petscore, minslot):
     #multiplier creation 
-    multi = minslot * .01
+    multi = minslot * .1
 
     #if the miltiplier is too small it makes it bigger 
     if multi <= 1:
