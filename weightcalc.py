@@ -1,5 +1,6 @@
 #dungeon weight calculations
 def dungeoncalc (uuid, f4comp):
+
     #dungeon weight multiplier 
     multi = uuid[0]
     multi = (int(multi)/10) + 1
