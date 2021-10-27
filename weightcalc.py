@@ -28,3 +28,5 @@ def slayercalc (emen, petscore, minslot):
         multi += 1
     #returns slayer weight 
     return ((emen+petscore) * multi) 
+
+#penis
