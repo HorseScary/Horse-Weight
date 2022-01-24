@@ -1,5 +1,5 @@
 from weightcalc import dungeoncalc, skillcalc, slayercalc
-
+#owo
 #welcome message thing 
 print("Whelcome to HorseWeight!\nSince im bad at coding HorseWeight curently does not support api\nEnter your stats below:")
 
