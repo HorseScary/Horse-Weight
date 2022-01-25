@@ -4,7 +4,7 @@ function calc() {
     weight = ign.charCodeAt(0) + ign.charCodeAt(2)
 
     if (ign == "JPERRM") {
-        weight = weight * 90.2
+        weight = "Why are you checking hes shit asf"
     } 
     else if (ign == "HORSESCARY") {
         weight = weight * 191.6
